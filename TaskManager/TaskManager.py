@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Initialize DataFrame to store tasks
 try:
     df = pd.read_csv("tasks.csv")
 except FileNotFoundError:
